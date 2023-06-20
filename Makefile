@@ -1,5 +1,5 @@
 NAME     := cloudflare-ddns
-VERSION  := v0.0.0
+VERSION  := v1.0.0
 REVISION := $(shell git rev-parse --short HEAD)
 
 SRCS    := $(shell find . -type f -name '*.go')
