@@ -1,2 +1,2 @@
 # cloudflare-ddns
-Cloudflare Registrarで管理しているドメインのA/AAAAレコードを更新します
+Cloudflare Registrarで管理しているドメインのA/AAAAレコードのIPアドレスを更新します
