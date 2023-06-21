@@ -26,6 +26,7 @@ create_service:
 
 .PHONY: start
 start: create_service
+	@systemctl start $(NAME).timer
 	@systemctl start $(NAME).service
 
 revoke_service: /etc/systemd/system/$(NAME).service /etc/systemd/system/$(NAME).timer
