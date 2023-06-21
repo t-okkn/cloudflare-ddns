@@ -10,6 +10,7 @@ GROUP   := root
 install:
 	@command cp $(SCRIPTNAME) $(DSTDIR)/
 	@chown $(USER):$(GROUP) $(DSTDIR)/$(SCRIPTNAME)
+	@chmod 755 $(DSTDIR)/$(SCRIPTNAME)
 	@echo -e "APITOKEN=" | tee $(ENVFILE)
 
 .PHONY: uninstall
